@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000" height="1000" viewBox="0 0 1000 1000" xml:space="preserve">
+<desc>Created with Fabric.js 3.5.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
+<g transform="matrix(-0.651 0 0 -0.7367 500.032 719.4561)" id="531108">
+<g style="" vector-effect="non-scaling-stroke">
+		<g transform="matrix(1 0 0 1 0 -43.5583)">
+<linearGradient id="SVGID_6" gradientUnits="objectBoundingBox" gradientTransform="matrix(1 0 0 1 768 325.9417)" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" style="stop-color:rgb(255,0,255);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(0,255,255);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_6); fill-rule: nonzero; opacity: 0.4;" transform=" translate(-768, -325.9417)" d="M 0 0 L 0 646.094 Q 153.6 655.441 307.2 631.197 T 614.4 524.901 T 921.6 398.817 T 1228.8 383.477 T 1536 243.995 L 1536 0 Z" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(1 0 0 1 0 -40.8175)">
+<linearGradient id="SVGID_7" gradientUnits="objectBoundingBox" gradientTransform="matrix(1 0 0 1 768 328.6825)" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" style="stop-color:rgb(255,0,255);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(0,255,255);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_7); fill-rule: nonzero; opacity: 0.4;" transform=" translate(-768, -328.6825)" d="M 0 0 L 0 657.365 Q 153.6 609.265 307.2 574.561 T 614.4 554.29 T 921.6 481.019 T 1228.8 347.199 T 1536 361.327 L 1536 0 Z" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(1 0 0 1 0 -58.218)">
+<linearGradient id="SVGID_8" gradientUnits="objectBoundingBox" gradientTransform="matrix(1 0 0 1 768 311.282)" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" style="stop-color:rgb(255,0,255);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(0,255,255);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_8); fill-rule: nonzero; opacity: 0.4;" transform=" translate(-768, -311.282)" d="M 0 0 L 0 622.564 Q 153.6 616.204 307.2 590.965 T 614.4 490.775 T 921.6 514.379 T 1228.8 420.061 T 1536 373.298 L 1536 0 Z" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(1 0 0 1 0 -27.43)">
+<linearGradient id="SVGID_9" gradientUnits="objectBoundingBox" gradientTransform="matrix(1 0 0 1 768 342.07)" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" style="stop-color:rgb(255,0,255);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(0,255,255);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_9); fill-rule: nonzero; opacity: 0.4;" transform=" translate(-768, -342.07)" d="M 0 0 L 0 684.14 Q 153.6 681.053 307.2 644.342 T 614.4 590.25 T 921.6 504.151 T 1228.8 442.98 T 1536 314.05 L 1536 0 Z" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(1 0 0 1 0 -11.222)">
+<linearGradient id="SVGID_10" gradientUnits="objectBoundingBox" gradientTransform="matrix(1 0 0 1 768 358.278)" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" style="stop-color:rgb(255,0,255);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(0,255,255);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_10); fill-rule: nonzero; opacity: 0.4;" transform=" translate(-768, -358.278)" d="M 0 0 L 0 716.556 Q 153.6 657.466 307.2 617.488 T 614.4 476.885 T 921.6 439.165 T 1228.8 353.656 T 1536 317.415 L 1536 0 Z" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>

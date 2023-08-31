@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Nice lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Nice admin lite design, Nice admin lite dashboard bootstrap 5 dashboard template">
+    <meta name="description"
+        content="Nice Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="robots" content="noindex,nofollow">
+    <!-- <title>Nice Admin Lite Template by WrapPixel</title>
+    <link rel="canonical" href="https://www.wrappixel.com/templates/niceadmin-lite/" /> -->
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon.png">
+    <!-- Custom CSS -->
+    <link href="./dist/css/style.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+<![endif]-->
+    <!-- <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+    <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css">
+    <link href=" https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"> -->
+    <link href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+       
+    .Exp {
+        display: inline-block;
+        position: right;
+        background-color: #AAA;
+        background-image: linear-gradient( /* chrome */ hsla(0, 0%, 100%, 0.6), hsla(0, 0%, 100%, 0) 50%, hsla(0, 0%, 0%, 0.3) 50%, hsla(0, 0%, 100%, 0.2) );
+        font-size: 12px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: white;
+        padding: 10px 30px;
+        text-shadow: 0 0 15px hsla(0, 0%, 100%, 1), /* bloom */ 0 2px 4px hsla(0, 0%, 0%, 0.7);
+        border: none;
+        border-radius: 30px;
+        margin: 5px;
+        box-shadow: inset 0 -5px 20px hsla(0, 0%, 0%, 0.4), /* top light */ inset 0 5px 20px hsla(0, 0%, 100%, 0.4), /* bottom shadow */ /* multiple light sources yall */ -8px 8px 5px hsla(0, 0%, 0%, 0.15), /* drop shadow 1 */ 5px 18px 10px hsla(0, 0%, 0%, 0.2);
+        cursor: pointer;
+        transition: transform 0.1s, box-shadow 0.1s;
+        
+            background-color: #233242;
+            position: relative;
+            left: 846px;
+            top: -20px;
+        
+    }
+    .page-breadcrumb .page-title {
+        margin-bottom: 0px;
+        font-weight: 500;
+        font-size: 32px;
+    }
+    
+    /* highlight */
+    .Exp:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 20px;
+      right: 20px;
+      top: 5px;
+      height: 20px;
+      border-radius: 15px;
+      background: linear-gradient( hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0) );
+    }
+    
+    .Exp { background-color: #233242; }
+    /* .glossy-button--gold { background-color: #EA0; }
+    .glossy-button--green { background-color: #6C6; }
+    .glossy-button--red { background-color: #E21; } */
+    
+    .Exp:hover {
+      transform: scale(1.05);
+      box-shadow:
+        inset 0 -5px 20px hsla(0, 0%, 0%, 0.4), /* top light */
+        inset 0 5px 20px hsla(0, 0%, 100%, 0.4), /* bottom shadow */
+        /* multiple light sources yall */
+        -12px 12px 5px hsla(0, 0%, 0%, 0.15), /* drop shadow 1 */
+        10px 25px 10px hsla(0, 0%, 0%, 0.2); /* drop shadow 2 */
+    }
+  
+</style>
+    
+    
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid grey;
+            border-collapse: collapse;
+
+            border-radius: 10px;
+
+
+        }
+
+        td.loan_remark {
+            word-break: break-all;
+
+        }
+        .demo{
+            
+                position: relative;
+                left: 19px;
+                top: -72px;
+            
+        }
+        button{
+                    display: inline-block;
+                    position: right;
+                    background-color: #AAA;
+                   
+                    font-family: sans-serif;
+                    font-weight: bold;
+                    color: white;
+                    padding: 10px 30px;
+                  
+                    border: none;
+                    border-radius: 40px;
+                    margin: 5px;
+                    
+                    cursor: pointer;
+                    transition: transform 0.1s, box-shadow 0.1s;
+                    
+                        background-color: #233242;
+                        
+                
+        
+            }
+    .btn-success {
+        background-color: green;
+        color: white;
+    }
+    
+    .btn-danger {
+        background-color: red;
+        color: white;
+    }
+    
+    .btn-warning {
+        background-color: yellow;
+        color: black;
+    }
+    .fa-edit:before{
+        color:#FFC107 ;
+        font-size:20px;
+    }
+    .fa-trash:before{
+        color:red ;
+        font-size:20px;
+    }
+    .overlay {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .overlay .overlay-text {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        top:-30px;
+        transform: translateX(-50%);
+        background: black;
+        color:white;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        font-size: 12px;
+        padding: 12px 12px;
+        white-space: nowrap;
+        pointer-events: none; 
+        height:20px;
+        border-radius: 50px;
+        line-height:4px;
+    }
+    
+    .overlay:hover .overlay-text {
+        opacity: 1;
+    }
+    .button-color{
+
+position: relative;
+left:990px;
+
+}
+.btn-group-lg>.btn, .btn-lg {
+    
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    position: relative;
+    color: blue;
+}
+
+th.table-head-item {
+    text-align: center;
+}
+
+    </style>
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper" data-navbarbg="skin6" data-theme="light" data-layout="vertical" data-sidebartype="full"
+        data-boxed-layout="full">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ===================================================jhewdjdeedw=========== -->
+        <header class="topbar" data-navbarbg="skin6">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <div class="navbar-header" data-logobg="skin5">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)">
+                        <i class="ti-menu ti-close"></i>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <div class="navbar-brand">
+                        <a href="index.html" class="logo">
+                            <!-- Logo icon -->
+                            <b class="logo-icon">
+                                <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                                <!-- Dark Logo icon -->
+                                <img src="./assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo icon -->
+                                <img src="./assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                            </b>
+                            <!--End Logo icon -->
+                            <!-- Logo text -->
+                            <span class="logo-text">
+                                <!-- dark Logo text -->
+                                <img src="./assets/images/logo-text.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo text -->
+                                <img src="./assets/images/logo-light-text.png" class="light-logo" alt="homepage" />
+                            </span>
+                        </a>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Toggle which is visible on mobile only -->
+                    <!-- ============================================================== -->
+
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin6">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-start me-auto">
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-end">
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <div class="text-right">
+                                <button id="logoutButton" class="button-color">Log Out</button>
+                            </div>
+
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" data-sidebarbg="skin5">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="index.html"
+                                aria-expanded="false">
+                                <i class="mdi mdi-av-timer"></i>
+                                <span class="hide-menu">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pages-profile.html"
+                                aria-expanded="false">
+                                <i class="mdi mdi-account-network"></i>
+                                <span class="hide-menu">Profile</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="table-basic.html"
+                                aria-expanded="false">
+                                <i class="mdi mdi-border-none"></i>
+                                <span class="hide-menu">Lead Table</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="table-loan.html"
+                                aria-expanded="false">
+                                <i class="mdi mdi-border-none"></i>
+                                <span class="hide-menu">Loan Table</span>
+                            </a>
+                        </li>
+
+                        <!-- <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="starter-kit.html"
+                                aria-expanded="false">
+                                <i class="mdi mdi-file"></i>
+                                <span class="hide-menu">Blank</span>
+                            </a>
+                        </li> -->
+                        <!-- <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="error-404.html"
+                                aria-expanded="false">
+                                <i class="mdi mdi-alert-outline"></i>
+                                <span class="hide-menu">404</span>
+                            </a>
+                        </li> -->
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="page-breadcrumb">
+                <div class="row">
+                    <div class="col-5 align-self-center">
+                        <h4 class="page-title">Lead Table</h4>
+                    </div>
+                    <div class="col-7 align-self-center">
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            
+                        </div>
+                    </div>
+                    <div class="col-12">
+                       
+                    </div>
+                    <div class="col-12">
+                       
+                    </div>
+                    <div class="col-12">
+                        
+                    </div>
+                    <div class="col-12">
+                       
+                    </div>
+                    <div class="col-12">
+                       
+                    </div>
+                    <div class="col-12">
+                        
+                    </div>
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                
+                               
+                                <div class="text-right">
+                                    <a href="#" class="btn btn-info btn-lg">
+                                        <span class="glyphicon glyphicon-export"id="btnExport" onclick="fnExcelReport();" ></span> Export
+                                      </a>
+                                </div>
+                                
+                                <h6 class="card-subtitle">
+                                    <!-- <code>.table</code> with <code>.table-responsive</code>.  -->
+                                    <!-- <code>.</code>.</h6> -->
+                            </div>
+                            
+                            <p><input class="demo" type="text" id="loanTypeToCheck" placeholder="Enter Loan Type"></p>
+                           
+
+                            <div class="table-responsive" id="leadTable">
+                                <table class="table table-hover table-striped" style="width:200%; " id="tableKiID">
+                                    <thead>
+                                        <tr>
+
+                                            <th class="table-head-item">Lead Name </th>
+                                            <th>Email</th>
+                                            <th>Contact</th>
+                                            <th>Loan Type</th>
+                                            <th>Loan Amount</th>
+                                            <th>Tenure</th>
+                                            <th>Pincode</th>
+                                            <th>Employment Type</th>
+                                            <th>Gross Monthly Income</th>
+                                            <th>Progress Status</th>
+                                            <th>Status</th>
+                                            <th>Remark</th>
+                                            <th>Admin Name</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody></tbody>
+
+                                </table>
+                                
+                            </div>
+
+
+                        </div>
+
+                        <button id="firstPage"><<</button>
+                                <button id="prevPage"><<</button>
+                                        <button id="nextPage">></button>
+                                        <button id="lastPage">>></button>
+                                        <p>Page <span id="currentPage">1</span> of <span id="totalPages">1</span></p>
+                    </div>
+
+                </div>
+                <!-- ============================================================== -->
+                <!-- End PAge Content -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Right sidebar -->
+                <!-- ============================================================== -->
+                <!-- .right-sidebar -->
+                <!-- ============================================================== -->
+                <!-- End Right sidebar -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <!-- <footer class="footer text-center">
+                All Rights Reserved by Nice admin. Designed and Developed by
+                <a href="https://www.wrappixel.com">WrapPixel</a>.
+            </footer> -->
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="./assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="./dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="./dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="./dist/js/custom.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src= "https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+    <script src= "https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+     <script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src= "https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+
+
+    <script>
+        $(document).ready(function(){
+            $("#loanTypeToCheck").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#tableKiID tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+        });
+    </script>
+    
+
+    <script>
+
+            $(document).ready(function () {
+                getTotalRows();
+
+            document.getElementById("firstPage").addEventListener("click", handlePaginationClick);
+            document.getElementById("nextPage").addEventListener("click", handlePaginationClick);
+            document.getElementById("prevPage").addEventListener("click", handlePaginationClick);
+            document.getElementById("lastPage").addEventListener("click", handlePaginationClick);
+        });
+            let currentPage = 1; // Starting from the first page
+            let totalPages = 0; // Will be set dynamically based on API response
+            const pageSize = 10; // Replace 10 with the desired number of items per page
+
+            // Function to fetch the total number of rows from the database using an API
+            function getTotalRows() {
+                $.ajax({
+                    url: "http://127.0.0.1:9000/proxy?url=http://127.0.0.1:8080/lead/count",
+                    method: "GET",
+                    dataType: "json",
+                    success: function (response) {
+                        console.log(response)
+                        if (response) {
+                            totalPages = Math.ceil(response / pageSize);
+                            console.log(totalPages)
+                            loadPageContent(currentPage);
+                            updatePageNumber();
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(error);
+                    }
+                });
+        }
+
+            function loadPageContent(page) {
+                // Perform AJAX request to get the content of the requested page
+                $.ajax({
+                    url: "http://localhost:9000/proxy?url=http://127.0.0.1:8080//lead/admin/" + page,
+                    method: "GET",
+                    dataType: "json",
+                    success: function (response) {
+                        if (response && response.data) {
+                            console.log(response.data)
+                            displayleads(response.data);
+                            currentPage = page;
+                            updatePageNumber();
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(error);
+                    }
+                });
+        }
+
+            function displayleads(leads) {
+            var tableBody = $('#leadTable tbody');
+            tableBody.empty();
+
+            leads.forEach(function (loan) {
+
+                var row = $(`<tr id="rowN${loan.id}"></tr>`);
+
+                row.append('<td>' + loan.user_name + '</td>');
+                row.append('<td>' + loan.user_email + '</td>');
+                row.append('<td>' + loan.user_contact + '</td>');
+                row.append('<td>' + loan.loan_type + '</td>');
+                row.append('<td>' + loan.loan_amount + '</td>');
+                row.append('<td>' + loan.tenure + '</td>');
+                row.append('<td>' + loan.pincode + '</td>');
+                row.append('<td>' + loan.employment_type + '</td>');
+                row.append('<td>' + loan.gross_monthly_income + '</td>');
+                var selectDiv = "<select onchange='changeAssignee(" + loan.id + ")' id='leadid_" + loan.id + "'>";
+                selectDiv += "<option value='None' " + (loan.progress_status == "None" ? "selected" : "") + ">None</option>";
+                selectDiv += "<option value='Pending' " + (loan.progress_status == "Pending" ? "selected" : "") + ">Pending</option>";
+                selectDiv += "<option value='In Progress' " + (loan.progress_status == "In Progress" ? "selected" : "") + ">In Progress</option>";
+                selectDiv += "<option value='Completed' " + (loan.progress_status == "Completed" ? "selected" : "") + ">Completed</option>";
+                selectDiv += "</select>";
+                row.append('<td>' + selectDiv + '</td>');
+                row.append('<td> <button type="button" class="btn ' + getStatusButtonClass(loan.status) + '">' + getStatusLabel(loan.status) + '</button></td>');
+                row.append('<td class="loan_remark">' + loan.remark + '</td>');
+                row.append('<td>' + loan.admin_name + '</td>');
+                row.append('<td><a href="http://localhost:9000/form/form-basic.html?id=' + loan.id + '"><div class="overlay"><i class="fa fa-edit"></i><span class="overlay-text">Edit</span></div></a>  <a href="#" onclick="deletelead(' + loan.id + ')"><div class="overlay"><i class="fa fa-trash" aria-hidden="true"></i><span class="overlay-text">Delete</span></div></a></td>');
+                tableBody.append(row);
+            });
+        }
+        // Function to handle the click event for thjgje buttonshjgjhefsjhsjfs
+        function handlePaginationClick(event) {
+            if (event.target.id == "firstPage") {
+                currentPage = 1;
+            } else if (event.target.id == "nextPage") {
+                if (currentPage < totalPages) {
+                    currentPage++;
+                }
+            } else if (event.target.id == "prevPage") {
+                if (currentPage > 1) {
+                    currentPage--;
+                }
+            } else if (event.target.id == "lastPage") {
+
+                currentPage = totalPages;
+            }
+
+            // Load the content of the current page using AJAX
+            loadPageContent(currentPage);
+        }
+        function fnExcelReport() {
+            var tab_text = "<table border='2px'><tr bgcolor='#87AFC6'>";
+            var textRange; var j = 0;
+            tab = document.getElementById('tableKiID'); // id of table
+
+
+            for (j = 0; j < tab.rows.length; j++) {
+                tab_text = tab_text + tab.rows[j].innerHTML + "</tr>";
+                //tab_text=tab_text+"</tr>";
+            }
+
+            tab_text = tab_text + "</table>";
+            tab_text = tab_text.replace(/<A[^>]*>|<\/A>/g, "");//remove if u want links in your table
+            tab_text = tab_text.replace(/<img[^>]*>/gi, ""); // remove if u want images in your table
+            tab_text = tab_text.replace(/<input[^>]*>|<\/input>/gi, ""); // reomves input params
+
+            var ua = window.navigator.userAgent;
+            var msie = ua.indexOf("MSIE ");
+
+            if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))      // If Internet Explorer
+            {
+                txtArea1.document.open("txt/html", "replace");
+                txtArea1.document.write(tab_text);
+                txtArea1.document.close();
+                txtArea1.focus();
+                sa = txtArea1.document.execCommand("SaveAs", true, "aa.xls");
+            }
+            else                 //other browser not tested on IE 11
+                sa = window.open('data:application/vnd.ms-excel,' + encodeURIComponent(tab_text));
+
+            return (sa);
+        }
+        function changeAssignee(loan_id) {
+            var selectedStatus = $('#leadid_' + loan_id).val();
+
+            var post_data = {
+                progress_status: selectedStatus
+            };
+
+            $.ajax({
+                url: "http://localhost:9000/proxy?url=http://127.0.0.1:8080/lead/progressstatus/" + loan_id,
+                method: "PATCH",
+                data: JSON.stringify(post_data),
+                contentType: 'application/json',
+                success: function (response) {
+                    console.log(response);
+                },
+                error: function (xhr, status, error) {
+                    console.error(error);
+                }
+            });
+        }
+        function updatePageNumber() {
+            document.getElementById("currentPage").textContent = currentPage;
+            document.getElementById("totalPages").textContent = totalPages;
+        }
+        function deletelead(id) {
+            var row_id = id;
+            $.ajax({
+                url: "http://localhost:9000/proxy?url=http://127.0.0.1:8080/admin/delete/" + id,
+                method: "PATCH",
+                success: function (response) {
+                    // Handle the response
+                    var rowid = 'rowN' + row_id;
+                    alert(rowid);
+                    var rowElement = document.getElementById(rowid);
+                    if (rowElement) {
+                        rowElement.style.display = 'none';
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error(error);
+                }
+            });
+            alert("Delete lead with ID: " + id);
+        }
+        function getStatusButtonClass(status) {
+            switch (status) {
+                case 'Approved':
+                    return 'btn-success'; // Green for approved
+                case 'Declined':
+                    return 'btn-danger';  // Red for declined
+                default:
+                    return 'btn-warning'; // Yellow for pending
+            }
+        }
+        
+        function getStatusLabel(status) {
+            switch (status) {
+                case'Approved':
+                    return 'Approved';
+                case 'Declined':
+                    return 'Declined';
+                default:
+                    return 'Pending';
+            }
+        }
+
+
+    </script>
+
+
+
+    <script>
+        // Function to handle logout
+        function logout() {
+            $.ajax({
+                method: 'DELETE', // Change the method to POST if needed based on your server implementation
+                url: '/admin/logout', // Replace '/logout' with the appropriate URL for the LogOut endpoint
+                headers: {
+                    'Authorization': 'Bearer ' + getCookie('token'),
+
+                },
+                dataType: 'json',
+                success: function (response) {
+                    if (response) {
+                        //cookie delete
+                        //setCookie('token','',0  
+                        document.cookie = "session_id=;expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/";
+                        document.cookie = "token=;expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/";
+                        document.cookie = "id=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/";
+
+                        // On successful logout, redirect to the login page
+                        window.location.assign('http://localhost:9000/form/admin.html');
+                        //window.location.href = ''; // Replace the URL with your login page URL
+                    }
+                    else {
+                        //error handle
+                    }
+                },
+                //  error: function(jqXHR, textStatus, errorThrown) {
+                // //  Handle the error, if any
+                //  console.log('Logout failed:', errorThrown);
+                //  }
+            });
+        }
+        function setCookie(cname, cvalue, exMins) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exMins * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+        // Function to get the JWT token from the cookie
+        function getCookie(name) {
+            const value = "; " + document.cookie;
+            const parts = value.split("; " + name + "=");
+            if (parts.length === 2) return parts.pop().split(";").shift();
+        }
+
+        // Bind click event to the logout button
+        $(document).ready(function () {
+            $("#logoutButton").click(function () {
+                logout();
+            });
+        });
+    </script>
+
+    <!-- <script>
+        function searchByLoanType() {
+            var loanTypeToCheck = document.getElementById("loanTypeToCheck").value.toLowerCase();
+            var filteredLeads = [];
+
+            $.ajax({
+                url: "http://localhost:9000/proxy?url=http://127.0.0.1:8080/lead/admin",
+                method: "GET",
+                dataType: "json",
+                success: function (response) {
+                    if (response && response.data) {
+                        filteredLeads = response.data.filter(function (lead) {
+                            return lead.user_name.toLowerCase() === loanTypeToCheck;
+                        });
+                        displayleads(filteredLeads);
+
+
+
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error(error);
+                }
+            });
+        }
+    </script> -->
+    <!-- <script>
+
+        $(document).ready(function () {
+            $.ajax({
+                url: 'http://localhost:9000/proxy?url=http://127.0.0.1:8080/lead/admin',
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+
+                    //console.log(data)
+                    var leadData = data; // Assuming 'data' contains the array of lead objects
+                    console.log(Swati143);
+
+                    console.log(leadData[0].user_name);
+                    alert(1);
+                    return false
+                    var selectElement = $('#leadDropdownn');
+
+                    selectElement.empty();
+
+                    for (var i = 0; i < leadData.length; i++) {
+                        var option = $('<option>', {
+                            value: leadData[i].user_name, // Extracting admin_name from the object
+                            text: leadData[i].user_name
+
+                        });
+                        console.log(option)
+
+                        selectElement.append(option);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error fetching data:', error);
+                }
+            });
+        });
+    </script> -->
+</body>
+
+</html>

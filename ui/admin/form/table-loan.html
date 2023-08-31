@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Nice lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Nice admin lite design, Nice admin lite dashboard bootstrap 5 dashboard template">
+    <meta name="description"
+        content="Nice Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Nice Admin Lite Template by WrapPixel</title>
+    <link rel="canonical" href="https://www.wrappixel.com/templates/niceadmin-lite/" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon.png">
+    <!-- Custom CSS -->
+    <link href="./dist/css/style.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper" data-navbarbg="skin6" data-theme="light" data-layout="vertical" data-sidebartype="full"
+        data-boxed-layout="full">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar" data-navbarbg="skin6">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <div class="navbar-header" data-logobg="skin5">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)">
+                        <i class="ti-menu ti-close"></i>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <div class="navbar-brand">
+                        <a href="index.html" class="logo">
+                            <!-- Logo icon -->
+                            <b class="logo-icon">
+                                <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                                <!-- Dark Logo icon -->
+                                <img src="./assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo icon -->
+                                <img src="./assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                            </b>
+                            <!--End Logo icon -->
+                            <!-- Logo text -->
+                            <span class="logo-text">
+                                <!-- dark Logo text -->
+                                <img src="./assets/images/logo-text.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo text -->
+                                <img src="./assets/images/logo-light-text.png" class="light-logo" alt="homepage" />
+                            </span>
+                        </a>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Toggle which is visible on mobile only -->
+                    <!-- ============================================================== -->
+
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin6">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-start me-auto">
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                      
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-end">
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <div class="text-right">
+                                <button id="logoutButton" class="button-color">Log Out</button>
+                            </div>
+
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                    </ul>
+                </div>
+            </nav>
+            <style>
+                table,
+                th,
+                td {
+                    border: 1px solid grey;
+                    border-collapse: collapse;
+
+                    border-radius: 10px;
+                }
+
+                td.loan_remark {
+                    word-break: break-all;
+
+
+                }
+                button{
+                    display: inline-block;
+                    position: right;
+                    background-color: #AAA;
+                   
+                    font-family: sans-serif;
+                    font-weight: bold;
+                    color: white;
+                    padding: 10px 30px;
+                    text-shadow: 0 0 15px hsla(0, 0%, 100%, 1), /* bloom */ 0 2px 4px hsla(0, 0%, 0%, 0.7);
+                    border: none;
+                    border-radius: 40px;
+                    margin: 5px;
+                    box-shadow: inset 0 -5px 20px hsla(0, 0%, 0%, 0.4), /* top light */ inset 0 5px 20px hsla(0, 0%, 100%, 0.4), /* bottom shadow */ /* multiple light sources yall */ -8px 8px 5px hsla(0, 0%, 0%, 0.15), /* drop shadow 1 */ 5px 18px 10px hsla(0, 0%, 0%, 0.2);
+                    cursor: pointer;
+                    transition: transform 0.1s, box-shadow 0.1s;
+                    
+                        background-color: #233242;
+                        
+                
+        
+            }
+            .success {
+                background-color: green;
+                color: white;
+            }
+            
+            .danger {
+                background-color: red;
+                color: white;
+            }
+            
+            .warning {
+                background-color: yellow;
+                color: black;
+            }
+            .bttn{
+                position: relative;
+                left: 846px;
+                 top: -20px;
+            }
+            .demo{
+            
+                position: relative;
+                left: 19px;
+                top: -72px;
+            
+        }
+        .page-breadcrumb .page-title {
+            margin-bottom: 0px;
+            font-weight: 500;
+            font-size: 32px;
+        }
+        .fa-edit:before{
+            color:#FFC107 ;
+            font-size:20px;
+        }
+        .fa-trash:before{
+            color:red ;
+            font-size:20px;
+        }
+        .overlay {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .overlay .overlay-text {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            top:-30px;
+            transform: translateX(-50%);
+            background: black;
+            color:white;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            font-size: 12px;
+            padding: 12px 12px;
+            white-space: nowrap;
+            pointer-events: none; 
+            height:20px;
+            border-radius: 50px;
+            line-height:4px;
+        }
+        
+        .overlay:hover .overlay-text {
+            opacity: 1;
+        }
+        </style>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" data-sidebarbg="skin5">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="index.html"
+                                aria-expanded="false">
+                                <i class="mdi mdi-av-timer"></i>
+                                <span class="hide-menu">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pages-profile.html"
+                                aria-expanded="false">
+                                <i class="mdi mdi-account-network"></i>
+                                <span class="hide-menu">Profile</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="table-basic.html"
+                                aria-expanded="false">
+                                <i class="mdi mdi-border-none"></i>
+                                <span class="hide-menu">Lead Table</span>
+                            </a>
+                        </li>
+
+
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="table-loan.html"
+                                aria-expanded="false">
+                                <i class="mdi mdi-border-none"></i>
+                                <span class="hide-menu">Loan Table</span>
+                            </a>
+                        </li>
+
+                        <!-- <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="starter-kit.html"
+                                aria-expanded="false">
+                                <i class="mdi mdi-file"></i>
+                                <span class="hide-menu">Blank</span>
+                            </a>
+                        </li> -->
+                        <!-- <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="error-404.html"
+                                aria-expanded="false">
+                                <i class="mdi mdi-alert-outline"></i>
+                                <span class="hide-menu">404</span>
+                            </a>
+                        </li> -->
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="page-breadcrumb">
+                <div class="row">
+                    <div class="col-5 align-self-center">
+                        <h4 class="page-title">Enquiry Table</h4> 
+                    </div>
+                    <div class="col-7 align-self-center">
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+
+                        </div>
+                    </div>
+                    <div class="col-12">
+
+                    </div>
+                    <div class="col-12">
+
+                    </div>
+                    <div class="col-12">
+
+                    </div>
+                    <div class="col-12">
+
+                    </div>
+                    <div class="col-12">
+
+                    </div>
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <button class="bttn" id="btnExport" onclick="fnExcelReport();"> EXPORT </button>
+                                
+                                <h6 class="card-subtitle">
+                                    <!-- <code>.table</code> with <code>.table-responsive</code>.  -->
+                                    <!-- <code>.</code>.</h6> -->
+                            </div>
+                            <p><input class="demo" type="text" id="loanTypeToCheck" placeholder="Enter Loan Type"></p>
+                            <!-- <button onclick="searchByLoanType()" style="    width: 20%;
+                            position: relative;
+                            left: 20%;
+                            top: -43px;">Search</button> -->
+
+                            <div class="table-responsive" id="leadTable">
+                                <table class="table" style="width:200%; " id="tableKiID">
+                                    <thead>
+                                        <tr>
+
+                                            <th>Lead Name</th>
+                                            <th>Email</th>
+                                            <th>Contact</th>
+                                            <th>Loan Type</th>
+                                            <th>Loan Amount</th>
+                                            <th>Tenure</th>
+                                            <th>Pincode</th>
+                                            <th>Employment Type</th>
+                                            <th>Gross Monthly Income</th>
+                                            <th>Progress Status</th>
+                                            <th>Status</th>
+                                            <th>Remark</th>
+                                            <th>Admin Name</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody></tbody>
+
+                                </table>
+
+                            </div>
+
+
+                        </div>
+
+                        <button id="firstPage"><<</button>
+                                <button id="prevPage"><<</button>
+                                        <button id="nextPage">></button>
+                                        <button id="lastPage">>></button>
+                                        <p>Page<span id="currentPage">1</span>of<span id="totalPages">1</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <!-- <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Breakpoint Specific</h4>
+                                <h6 class="card-subtitle">Use <code>.table-responsive{-sm|-md|-lg|-xl}</code> as needed
+                                    to create responsive tables up to a particular breakpoint. From that breakpoint and
+                                    up, the table will behave normally and not scroll horizontally.</h6> -->
+                <!-- <div class="table-responsive-sm">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Loan Type</th>
+                                                <th>Loan Amount</th>
+                                                <th>Tenure</th>
+                                                <th>Pincode</th>
+                                                <th>Employment Type</th>
+                                                <th>Gross Monthly Income</th>
+                                                <th>Status</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+                                </div> -->
+                <!-- <div class="table-responsive-md">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Heading</th>
+                                                <th scope="col">Heading</th>
+                                                <th scope="col">Heading</th>
+                                                <th scope="col">Heading</th>
+                                                <th scope="col">Heading</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="table-responsive-lg">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Heading</th>
+                                                <th scope="col">Heading</th>
+                                                <th scope="col">Heading</th>
+                                                <th scope="col">Heading</th>
+                                                <th scope="col">Heading</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="table-responsive-xl">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Heading</th>
+                                                <th scope="col">Heading</th>
+                                                <th scope="col">Heading</th>
+                                                <th scope="col">Heading</th>
+                                                <th scope="col">Heading</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td>
+                                                <td>Cell</td> -->
+                <!-- <td>Cell</td>
+                                            </tr>
+                                        </tbody>
+                                    </table> -->
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End PAge Content -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Right sidebar -->
+    <!-- ============================================================== -->
+    <!-- .right-sidebar -->
+    <!-- ============================================================== -->
+    <!-- End Right sidebar -->
+    <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Container fluid  -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- footer -->
+    <!-- ============================================================== -->
+    <footer class="footer text-center">
+       
+    </footer>
+    <!-- ============================================================== -->
+    <!-- End footer -->
+    <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Page wrapper  -->
+    <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="./assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="./dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="./dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="./dist/js/custom.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <script>
+
+        $(document).ready(function () {
+            $("#loanTypeToCheck").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#tableKiID tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            getTotalRows();
+
+            document.getElementById("firstPage").addEventListener("click", handlePaginationClick);
+            document.getElementById("nextPage").addEventListener("click", handlePaginationClick);
+            document.getElementById("prevPage").addEventListener("click", handlePaginationClick);
+            document.getElementById("lastPage").addEventListener("click", handlePaginationClick);
+        });
+        let currentPage = 1; // Starting from the first page
+        let totalPages = 0; // Will be set dynamically based on API response
+        const pageSize = 4; // Replace 10 with the desired number of items per page
+
+        // Function to fetch the total number of rows from the database using an API
+        function getTotalRows() {
+            $.ajax({
+                url: "http://127.0.0.1:9000/proxy?url=http://127.0.0.1:8080/loan/count",
+                method: "GET",
+                dataType: "json",
+                success: function (response) {
+                    console.log(response)
+                    if (response) {
+                        totalPages = Math.ceil(response / pageSize);
+                        console.log(totalPages)
+                        loadPageContent(currentPage);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error(error);
+                }
+            });
+        }
+
+        function loadPageContent(page) {
+            // Perform AJAX request to get the content of the requested page
+            $.ajax({
+                url: "http://localhost:9000/proxy?url=http://127.0.0.1:8080//loan/get/" + page,
+                method: "GET",
+                dataType: "json",
+                success: function (response) {
+                    if (response && response.data) {
+                        console.log(response.data)
+                        displayleads(response.data);
+                        currentPage = page;
+                        updatePageNumber();
+
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error(error);
+                }
+            });
+        }
+
+        function displayleads(leads) {
+            var tableBody = $('#leadTable tbody');
+            tableBody.empty();
+
+            leads.forEach(function (loan) {
+
+                var row = $(`<tr id="rowN${loan.id}"></tr>`);
+
+                row.append('<td>' + loan.user_name + '</td>');
+                row.append('<td>' + loan.user_email + '</td>');
+                row.append('<td>' + loan.user_contact + '</td>');
+                row.append('<td>' + loan.loan_type + '</td>');
+                row.append('<td>' + loan.loan_amount + '</td>');
+                row.append('<td>' + loan.tenure + '</td>');
+                row.append('<td>' + loan.pincode + '</td>');
+                row.append('<td>' + loan.employment_type + '</td>');
+                row.append('<td>' + loan.gross_monthly_income + '</td>');
+                var selectDiv = "<select onchange='changeAssignee(" + loan.id + ")' id='leadid_" + loan.id + "'>";
+                selectDiv += "<option value='None' " + (loan.progress_status == "None" ? "selected" : "") + ">None</option>";
+                selectDiv += "<option value='Pending' " + (loan.progress_status == "Pending" ? "selected" : "") + ">Pending</option>";
+                selectDiv += "<option value='In Progress' " + (loan.progress_status == "In Progress" ? "selected" : "") + ">In Progress</option>";
+                selectDiv += "<option value='Completed' " + (loan.progress_status == "Completed" ? "selected" : "") + ">Completed</option>";
+                selectDiv += "</select>";
+                row.append('<td>' + selectDiv + '</td>');
+                row.append('<td> <button type="button" class="btn ' + getStatusButtonClass(loan.status) + '">' + getStatusLabel(loan.status) + '</button></td>');
+                row.append('<td class="loan_remark">' + loan.remark + '</td>');
+                row.append('<td>' + loan.admin_name + '</td>');
+                row.append('<td><a href="http://localhost:9000/form/form-loan.html?id=' + loan.id + '"><div class="overlay"><i class="fa fa-edit"></i><span class="overlay-text">Edit</span></div></a>  <a href="#" onclick="deletelead(' + loan.id + ')"><div class="overlay"><i class="fa fa-trash" aria-hidden="true"></i><span class="overlay-text">Delete</span></div></a></td>');
+                tableBody.append(row);
+            });
+        }
+
+        // Function to handle the click event for the buttons
+        function handlePaginationClick(event) {
+            if (event.target.id == "firstPage") {
+                currentPage = 1;
+            } else if (event.target.id == "nextPage") {
+                if (currentPage < totalPages) {
+                    currentPage++;
+                }
+            } else if (event.target.id == "prevPage") {
+                if (currentPage > 1) {
+                    currentPage--;
+                }
+            } else if (event.target.id == "lastPage") {
+
+                currentPage = totalPages;
+            }
+
+            // Load the content of the current page using AJAX
+            loadPageContent(currentPage);
+        }
+        function fnExcelReport() {
+            var tab_text = "<table border='2px'><tr bgcolor='#87AFC6'>";
+            var textRange; var j = 0;
+            tab = document.getElementById('tableKiID'); // id of table
+
+
+            for (j = 0; j < tab.rows.length; j++) {
+                tab_text = tab_text + tab.rows[j].innerHTML + "</tr>";
+                //tab_text=tab_text+"</tr>";
+            }
+
+            tab_text = tab_text + "</table>";
+            tab_text = tab_text.replace(/<A[^>]*>|<\/A>/g, "");//remove if u want links in your table
+            tab_text = tab_text.replace(/<img[^>]*>/gi, ""); // remove if u want images in your table
+            tab_text = tab_text.replace(/<input[^>]*>|<\/input>/gi, ""); // reomves input params
+
+            var ua = window.navigator.userAgent;
+            var msie = ua.indexOf("MSIE ");
+
+            if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))      // If Internet Explorer
+            {
+                txtArea1.document.open("txt/html", "replace");
+                txtArea1.document.write(tab_text);
+                txtArea1.document.close();
+                txtArea1.focus();
+                sa = txtArea1.document.execCommand("SaveAs", true, "aa.xls");
+            }
+            else                 //other browser not tested on IE 11
+                sa = window.open('data:application/vnd.ms-excel,' + encodeURIComponent(tab_text));
+
+            return (sa);
+        }
+        function changeAssignee(loan_id) {
+            var selectedStatus = $('#leadid_' + loan_id).val();
+
+            var post_data = {
+                progress_status: selectedStatus
+            };
+
+            $.ajax({
+                url: "http://localhost:9000/proxy?url=http://127.0.0.1:8080/loan/progressstatus/" + loan_id,
+                method: "PATCH",
+                data: JSON.stringify(post_data),
+                contentType: 'application/json',
+                success: function (response) {
+                    console.log(response);
+                },
+                error: function (xhr, status, error) {
+                    console.error(error);
+                }
+            });
+        }
+        function updatePageNumber() {
+            document.getElementById("currentPage").textContent = currentPage;
+            document.getElementById("totalPages").textContent = totalPages;
+        }
+        function deletelead(id) {
+            var row_id = id;
+            $.ajax({
+                url: "http://localhost:9000/proxy?url=http://127.0.0.1:8080/admin/delete/" + id,
+                method: "PATCH",
+                success: function (response) {
+                    // Handle the response
+                    var rowid = 'rowN' + row_id;
+                    alert(rowid);
+                    var rowElement = document.getElementById(rowid);
+                    if (rowElement) {
+                        rowElement.style.display = 'none';
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error(error);
+                }
+            });
+            alert("Delete lead with ID: " + id);
+        }
+        function getStatusButtonClass(status) {
+            switch (status) {
+                case 'Approved':
+                    return 'success'; // Green for approved
+                case 'Declined':
+                    return 'danger';  // Red for declined
+                default:
+                    return 'warning'; // Yellow for pending
+            }
+        }
+        
+        function getStatusLabel(status) {
+            switch (status) {
+                case'Approved':
+                    return 'Approved';
+                case 'Declined':
+                    return 'Declined';
+                default:
+                    return 'Pending';
+            }
+        }
+
+
+
+    </script>
+    <script>
+        // Function to handle logout
+        function logout() {
+            $.ajax({
+                method: 'DELETE', // Change the method to POST if needed based on your server implementation
+                url: '/admin/logout', // Replace '/logout'jgjg with the appropriate URL for the LogOut endpoint
+                headers: {
+                    'Authorization': 'Bearer ' + getCookie('token'),
+
+                },
+                dataType: 'json',
+                success: function (response) {
+                    if (response) {
+                        //cookie delete
+                        //setCookie('token','',0  
+                        document.cookie = "session_id=;expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/";
+                        document.cookie = "token=;expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/";
+                        document.cookie = "id=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/";
+
+                        // On successful logout, redirect to the login page
+                        window.location.assign('http://localhost:9000/form/admin.html');
+                        //window.location.href = ''; // Replace the URL with your login page URL
+                    }
+                    else {
+                        //error handle
+                    }
+                },
+                //  error: function(jqXHR, textStatus, errorThrown) {
+                // //  Handle the error, if any
+                //  console.log('Logout failed:', errorThrown);
+                //  }
+            });
+        }
+        function setCookie(cname, cvalue, exMins) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exMins * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+        // Function to get the JWT token from the cookie
+        function getCookie(name) {
+            const value = "; " + document.cookie;
+            const parts = value.split("; " + name + "=");
+            if (parts.length === 2) return parts.pop().split(";").shift();
+        }
+
+        // Bind click event to the logout button
+        $(document).ready(function () {
+            $("#logoutButton").click(function () {
+                logout();
+            });
+        });
+    </script>
+    <!-- <script>
+        function searchByLoanType() {
+            var loanTypeToCheck = document.getElementById("loanTypeToCheck").value.toLowerCase();
+
+            var filteredLeads = [];
+
+
+            $.ajax({
+                url: "http://localhost:9000/proxy?url=http://127.0.0.1:8080/loan/all", // Change the API endpoint as needed
+                method: "GET",
+                dataType: "json",
+                success: function (response) {
+                    if (response && response.data) {
+
+                        filteredLeads = response.data.filter(function (lead) {
+
+                            return lead.user_name.toLowerCase() === loanTypeToCheck;
+                        });
+
+                        displayleads(filteredLeads);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error(error);
+                }
+            });
+        }
+
+    </script> -->
+
+
+</body>
+
+</html>
