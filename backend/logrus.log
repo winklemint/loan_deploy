@@ -1,0 +1,604 @@
+time="2023-08-08T15:31:58+05:30" level=info msg="Update Lead Table Successfully" Progress Status=1
+time="2023-08-08T15:34:13+05:30" level=info msg="Update Lead Table Successfully" Progress Status=Pending
+time="2023-08-08T15:37:22+05:30" level=info msg="Update Lead Table Successfully" Progress Status=Completed
+time="2023-08-09T12:35:08+05:30" level=info msg="Update Lead Table Successfully" Progress Status=Pending
+time="2023-08-09T12:40:27+05:30" level=info msg="Update Lead Table Successfully" Progress Status="In Progress"
+time="2023-08-09T12:46:18+05:30" level=info msg="Connection Start"
+time="2023-08-09T12:46:23+05:30" level=info msg="Connection Start"
+time="2023-08-09T12:52:47+05:30" level=info msg="Connection Start"
+time="2023-08-09T12:55:52+05:30" level=info msg="Connection Start"
+time="2023-08-09T12:59:14+05:30" level=info msg="Connection Start"
+time="2023-08-09T13:00:36+05:30" level=info msg="Connection Start"
+time="2023-08-10T15:20:51+05:30" level=warning msg="Invalid credentials for user: navi@gmail.com"
+time="2023-08-10T15:23:56+05:30" level=warning msg="Invalid credentials for user: navi@gmail.com"
+time="2023-08-10T15:24:08+05:30" level=info msg="Loggin Successfully navi@gmail.com"
+time="2023-08-10T15:24:32+05:30" level=info msg="Loggin Successfully navi@gmail.com"
+time="2023-08-10T15:24:33+05:30" level=info msg="Loggin Successfully navi@gmail.com"
+time="2023-08-10T15:29:37+05:30" level=info msg="Loggin Successfully navi@gmail.com"
+time="2023-08-10T15:30:09+05:30" level=info msg="Loggin Successfully navi@gmail.com"
+time="2023-08-10T15:34:00+05:30" level=info msg="Added New User Successfully" User_Contact=1234567890 User_Email=swati@gmail.com User_Password=Encrypted User_name=swati
+time="2023-08-10T15:35:07+05:30" level=warning msg="Invalid credentials for user: swati@gmail.com"
+time="2023-08-10T15:39:50+05:30" level=warning msg="Invalid credentials for user: swati@gmail.com"
+time="2023-08-10T15:43:32+05:30" level=warning msg="Invalid credentials for user: swati@gmail.com"
+time="2023-08-10T15:45:22+05:30" level=warning msg="Invalid credentials for user: swati@gmail.com"
+time="2023-08-10T15:47:04+05:30" level=warning msg="Invalid credentials for user: swati@gmail.com"
+time="2023-08-10T15:49:18+05:30" level=warning msg="Invalid credentials for user: swati@gmail.com"
+time="2023-08-10T15:49:42+05:30" level=warning msg="Invalid credentials for user: swati@gmail.com"
+time="2023-08-10T15:49:58+05:30" level=warning msg="Invalid credentials for user: swati@gmail.com"
+time="2023-08-10T15:51:00+05:30" level=info msg="Loggin Successfully navi@gmail.com"
+time="2023-08-10T16:25:53+05:30" level=info msg="Added New User Successfully" User_Contact=0 User_Email=swati@gmail.com User_Password=Encrypted User_name="Swati Chouhan"
+time="2023-08-10T16:27:29+05:30" level=info msg="Loggin Successfully swati@gmail.com"
+time="2023-08-10T16:27:29+05:30" level=error msg="Delete successful"
+time="2023-08-10T16:27:29+05:30" level=error msg="Delete successful"
+time="2023-08-10T16:27:29+05:30" level=error msg="Delete successful"
+time="2023-08-10T16:27:29+05:30" level=error msg="Delete successful"
+time="2023-08-10T16:27:29+05:30" level=error msg="Delete successful"
+time="2023-08-10T16:27:29+05:30" level=error msg="Delete successful"
+time="2023-08-10T16:27:55+05:30" level=info msg="Loggin Successfully swati@gmail.com"
+time="2023-08-10T16:47:06+05:30" level=info msg="Loggin Successfully swati@gmail.com"
+time="2023-08-10T16:48:55+05:30" level=info msg="Loggin Successfully swati@gmail.com"
+time="2023-08-10T16:49:32+05:30" level=info msg="Loggin Successfully swati@gmail.com"
+time="2023-08-10T17:12:18+05:30" level=info msg="sql: expected 6 destination arguments in Scan, not 5 jkdkdfkjksd"
+time="2023-08-10T17:13:45+05:30" level=info msg="sql: Scan error on column index 0, name \"token\": converting driver.Value type []uint8 (\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN3YXRpQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiIiwiY29udGFjdF9udW0iOjAsImNhcHRjaGEiOiIiLCJleHAiOjE2OTE2NjgxMzV9.EgEXSkJ_XbEfkRA-cPSF94NIlhkAQ-KlIxSpLN3CKqo\") to a int: invalid syntax jkdkdfkjksd"
+time="2023-08-10T17:15:47+05:30" level=info msg="Login Successful 0"
+time="2023-08-10T17:17:30+05:30" level=info msg="Login Successful 0"
+time="2023-08-10T17:20:01+05:30" level=info msg="Login Successful 0"
+time="2023-08-10T17:20:01+05:30" level=error msg="Delete successful"
+time="2023-08-10T17:20:01+05:30" level=error msg="Delete successful"
+time="2023-08-10T17:21:18+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-10T17:21:18+05:30" level=info msg="Login Successful swati@gmail.com"
+time="2023-08-10T17:21:42+05:30" level=info msg="Login Successful 0"
+time="2023-08-10T17:23:28+05:30" level=info msg="Login Successful 0"
+time="2023-08-10T17:24:19+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-10T17:24:19+05:30" level=info msg="Login Successful swati@gmail.com"
+time="2023-08-10T17:24:55+05:30" level=info msg="Login Successful 0"
+time="2023-08-10T17:34:39+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-10T17:34:39+05:30" level=info msg="Login Successful swati@gmail.com"
+time="2023-08-10T17:35:36+05:30" level=info msg="Login Successful 0"
+time="2023-08-10T17:39:29+05:30" level=info msg="Login Successful 0"
+time="2023-08-10T17:48:14+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-10T17:48:14+05:30" level=info msg="Login Successful swati@gmail.com"
+time="2023-08-10T17:49:22+05:30" level=info msg="Login Successful 0"
+time="2023-08-10T17:55:07+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-10T17:55:07+05:30" level=info msg="Login Successful swati@gmail.com"
+time="2023-08-10T17:57:57+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-10T17:57:57+05:30" level=info msg="Login Successful swati@gmail.com"
+time="2023-08-10T17:58:41+05:30" level=info msg="Login Successful 0"
+time="2023-08-10T18:01:09+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-10T18:01:09+05:30" level=info msg="Login Successful swati@gmail.com"
+time="2023-08-10T18:01:42+05:30" level=info msg="Login Successful swati@gmail.com"
+time="2023-08-10T18:01:53+05:30" level=info msg="Login Successful swati@gmail.com"
+time="2023-08-10T18:23:40+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-10T18:23:40+05:30" level=info msg="Login Successful swati@gmail.com"
+time="2023-08-10T18:24:41+05:30" level=info msg="Login Successful 0"
+time="2023-08-10T18:43:45+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-10T18:43:45+05:30" level=info msg="Login Successful swati@gmail.com"
+time="2023-08-10T18:46:08+05:30" level=info msg="Login unSuccessful 0"
+time="2023-08-10T18:48:10+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-10T18:48:10+05:30" level=info msg="Login Successful swati@gmail.com"
+time="2023-08-10T18:50:03+05:30" level=info msg="Login Successful 0"
+time="2023-08-14T13:35:03+05:30" level=info msg="Update Lead Table Successfully" Progress Status=Pending
+time="2023-08-14T13:35:39+05:30" level=info msg="Update Lead Table Successfully" Progress Status=Completed
+time="2023-08-14T13:36:26+05:30" level=info msg="Update Lead Table Successfully" Employment_Type=segrgyidhbtgjkrnh Gross_Monthly_Income=5674 Lead_Id=260 Lead_Type=jkjhkl Loan_Amount=1213 Pincode=243678 Tenure=6
+time="2023-08-14T13:36:43+05:30" level=info msg="Update Lead Table Successfully" Employment_Type=segrgyidhbtgjkrnh Gross_Monthly_Income=5674 Lead_Id=260 Lead_Type=jkjhkl Loan_Amount=1213 Pincode=243678 Tenure=6
+time="2023-08-14T14:54:26+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-14T14:54:26+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-14T14:55:39+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=218
+time="2023-08-14T14:55:46+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=219
+time="2023-08-14T14:55:50+05:30" level=info msg="Loan Details Inserted" Employment_Type=SelfEmployed Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=220
+time="2023-08-14T14:56:05+05:30" level=info msg="Loan Details Inserted" Employment_Type=SelfEmployed Gross_Monthly_Income=0 Loan_Amount=656356 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=221
+time="2023-08-14T15:08:33+05:30" level=info msg="Login Successful 0"
+time="2023-08-14T15:09:51+05:30" level=info msg="Login Successful 0"
+time="2023-08-14T15:13:34+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-14T15:14:48+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-14T15:15:08+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-14T15:15:13+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-14T15:15:17+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-14T15:15:21+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-14T15:15:25+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-14T15:15:25+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-14T15:15:38+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-14T15:16:38+05:30" level=info msg="Login Successful 0"
+time="2023-08-14T15:16:42+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-14T15:16:49+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-14T15:17:06+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-14T15:17:46+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-14T15:19:49+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-14T15:20:29+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-14T15:20:29+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-14T15:20:32+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=buyplot Pincode=0 Tenure=0 loan_id=222
+time="2023-08-14T15:20:38+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=buyplot Pincode=0 Tenure=0 loan_id=223
+time="2023-08-14T15:21:11+05:30" level=info msg="Loan Details Inserted" Employment_Type=BussinessOwner Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=buyplot Pincode=0 Tenure=0 loan_id=224
+time="2023-08-14T15:47:21+05:30" level=info msg="Login Successful 0"
+time="2023-08-14T15:47:32+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-14T15:47:34+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-14T15:48:23+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-14T15:48:23+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-14T15:48:25+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=225
+time="2023-08-14T15:48:34+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-14T15:49:28+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-14T15:49:43+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-14T16:29:59+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-14T16:29:59+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-14T16:30:56+05:30" level=warning msg="Authorization header missing"
+time="2023-08-14T16:31:34+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-14T16:31:34+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-14T16:31:39+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=226
+time="2023-08-14T18:34:06+05:30" level=info msg="Login Successful 0"
+time="2023-08-14T18:44:45+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-14T18:44:45+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-14T18:44:57+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=227
+time="2023-08-17T10:55:45+05:30" level=info msg="Login Successful 0"
+time="2023-08-17T10:56:00+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-17T11:06:30+05:30" level=info msg="Login Successful 0"
+time="2023-08-17T11:06:44+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-17T11:08:07+05:30" level=info msg="Login Successful 0"
+time="2023-08-17T11:08:10+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-17T11:09:48+05:30" level=info msg="Login Successful 0"
+time="2023-08-17T11:09:52+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-17T11:19:28+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-17T11:19:28+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-17T11:19:38+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-17T11:22:58+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-17T11:22:58+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-17T11:23:03+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-17T11:27:52+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-17T11:27:52+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-17T11:27:58+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: Scan error on column index 0, name \"user_id\": destination not a pointer"
+time="2023-08-17T11:28:58+05:30" level=info msg="Login Successful 0"
+time="2023-08-17T11:29:03+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-17T11:53:07+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-17T11:53:07+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-17T11:53:19+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=228
+time="2023-08-17T11:54:15+05:30" level=info msg="Login Successful 0"
+time="2023-08-17T11:54:28+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-17T11:54:43+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-17T11:55:03+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-17T11:55:03+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-17T11:55:16+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-17T11:56:31+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-17T11:56:31+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-17T11:56:36+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=loanagainst Pincode=0 Tenure=0 loan_id=229
+time="2023-08-17T11:57:45+05:30" level=info msg="Login Successful 0"
+time="2023-08-17T11:57:50+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-17T11:58:22+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-17T11:58:22+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-17T11:58:39+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=commercial Pincode=0 Tenure=0 loan_id=230
+time="2023-08-17T11:59:13+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=BussinessOwner Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=230
+time="2023-08-17T12:06:13+05:30" level=info msg="Login Successful 0"
+time="2023-08-17T12:06:33+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-17T12:07:04+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.com"
+time="2023-08-17T12:07:17+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-17T12:07:17+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-17T12:07:23+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=balancetransfer Pincode=0 Tenure=0 loan_id=231
+time="2023-08-17T12:07:27+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=SelfEmployed Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=231
+time="2023-08-17T12:13:40+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-17T12:13:40+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-17T12:13:46+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=buyplot Pincode=0 Tenure=0 loan_id=232
+time="2023-08-17T12:21:45+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-17T12:21:45+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-17T12:21:58+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-17T12:22:36+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=233
+time="2023-08-17T12:27:25+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=SelfEmployed Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=233
+time="2023-08-17T17:14:21+05:30" level=info msg="Update Lead Table Successfully" Progress Status=Pending
+time="2023-08-17T19:20:46+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-17T19:20:46+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-17T19:25:23+05:30" level=info msg="Connection Start"
+time="2023-08-18T10:44:11+05:30" level=info msg="Added New User Successfully" User_Contact=7987436119 User_Email=swati1234@gmail.com User_Password=Encrypted User_name=
+time="2023-08-18T10:59:40+05:30" level=info msg="Added New User Successfully" User_Contact=7987436119 User_Email=swati1234@gmail.com User_Password=Encrypted User_name=
+time="2023-08-18T11:01:48+05:30" level=info msg="Added New User Successfully" User_Contact=7987436119 User_Email=prachichhapariya2000@gmail.com User_Password=Encrypted User_name=
+time="2023-08-18T11:02:51+05:30" level=info msg="Added New User Successfully" User_Contact=7987436119 User_Email=prachichhapariya2000@gmail.com User_Password=Encrypted User_name=swati
+time="2023-08-18T11:07:49+05:30" level=info msg="Added New User Successfully" User_Contact=0 User_Email=madhu@gmail.com User_Password=Encrypted User_name=swati
+time="2023-08-18T13:21:39+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T13:21:39+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.com"
+time="2023-08-18T13:23:17+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T13:23:17+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.com"
+time="2023-08-18T13:26:22+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T13:26:22+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T13:26:22+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T13:28:22+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T13:28:22+05:30" level=info msg="Login Successful 0"
+time="2023-08-18T13:29:48+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T13:29:49+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T13:29:49+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T13:32:30+05:30" level=info msg="Login Successful 0"
+time="2023-08-18T13:33:07+05:30" level=info msg="Login Successful 0"
+time="2023-08-18T13:34:54+05:30" level=info msg="Login Successful 0"
+time="2023-08-18T13:38:21+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T13:38:21+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T13:38:21+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T13:44:11+05:30" level=info msg="failed to extract ip add sql: no rows in result set"
+time="2023-08-18T13:44:11+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T13:44:11+05:30" level=info msg="<nil> jkdkdfkjksd"
+time="2023-08-18T13:45:19+05:30" level=info msg="failed to extract ip add sql: no rows in result set"
+time="2023-08-18T13:45:19+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T13:45:19+05:30" level=info msg="<nil> jkdkdfkjksd"
+time="2023-08-18T13:45:39+05:30" level=info msg="failed to extract ip add sql: no rows in result set"
+time="2023-08-18T13:45:39+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T13:45:39+05:30" level=info msg="<nil> jkdkdfkjksd"
+time="2023-08-18T13:47:58+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T13:47:58+05:30" level=info msg="failed to extract ip add sql: no rows in result set"
+time="2023-08-18T13:47:58+05:30" level=info msg="<nil> jkdkdfkjksd"
+time="2023-08-18T13:50:55+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T13:50:55+05:30" level=info msg="failed to extract ip add sql: no rows in result set"
+time="2023-08-18T13:50:55+05:30" level=info msg="failed to extract ip add sql: no rows in result set"
+time="2023-08-18T13:50:55+05:30" level=info msg="<nil> jkdkdfkjksd"
+time="2023-08-18T13:57:04+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T13:57:04+05:30" level=info msg="failed to extract ip add sql: no rows in result set"
+time="2023-08-18T13:57:04+05:30" level=info msg="<nil> jkdkdfkjksd"
+time="2023-08-18T13:57:04+05:30" level=info msg="failed to extract ip add sql: no rows in result set"
+time="2023-08-18T14:38:56+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T14:38:57+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T14:38:57+05:30" level=info msg="<nil> jkdkdfkjksd"
+time="2023-08-18T14:38:57+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T14:42:36+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T14:42:37+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T14:42:37+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T14:44:33+05:30" level=info msg="Login Successful 0"
+time="2023-08-18T14:50:03+05:30" level=info msg="failed to extract ip add sql: no rows in result set"
+time="2023-08-18T14:51:18+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T14:51:27+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T14:54:52+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T14:56:47+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T14:57:24+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T14:57:40+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=homeimprovement Pincode=0 Tenure=0 loan_id=234
+time="2023-08-18T15:01:57+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-18T15:02:32+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=loanagainst Pincode=0 Tenure=0 loan_id=235
+time="2023-08-18T15:12:09+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T15:12:09+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T15:13:13+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T15:14:47+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T15:14:47+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T15:15:09+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T15:18:22+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T15:18:22+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T15:20:51+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T15:20:56+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T15:25:01+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T15:25:01+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T15:29:03+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T15:29:03+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T15:29:30+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T15:31:02+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T15:31:02+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T15:31:52+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T15:34:52+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T15:34:52+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T15:35:39+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T15:35:39+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T15:35:45+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T15:35:45+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T15:40:09+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T15:40:09+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T15:47:15+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T15:47:15+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T15:58:29+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T15:58:29+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T16:11:49+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T16:11:49+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T16:13:41+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T16:13:41+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T16:14:11+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T16:14:11+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T16:18:14+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T16:18:14+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T16:19:52+05:30" level=info msg="Login Successful 0"
+time="2023-08-18T16:20:30+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-18T16:21:29+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T16:21:29+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T16:22:01+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T16:22:01+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T16:22:59+05:30" level=info msg="Login Successful 0"
+time="2023-08-18T16:29:59+05:30" level=info msg="Login Successful 0"
+time="2023-08-18T16:30:34+05:30" level=info msg="failed to extract ip add sql: no rows in result set"
+time="2023-08-18T16:30:34+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T16:31:44+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T16:31:44+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T16:32:10+05:30" level=info msg="Login Successful 0"
+time="2023-08-18T16:33:47+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T16:33:47+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T16:34:31+05:30" level=info msg="failed to extract ip add sql: no rows in result set"
+time="2023-08-18T16:34:31+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:04:23+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.co"
+time="2023-08-18T17:05:03+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.co"
+time="2023-08-18T17:06:15+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.co"
+time="2023-08-18T17:06:44+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.com"
+time="2023-08-18T17:06:46+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.com"
+time="2023-08-18T17:06:48+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.com"
+time="2023-08-18T17:06:48+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.com"
+time="2023-08-18T17:07:15+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:07:15+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:07:17+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:07:17+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:07:18+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:07:18+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:07:18+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:07:18+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:07:18+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:07:18+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:07:18+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:07:18+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:07:26+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:07:26+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:07:42+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:07:42+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:11:23+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:11:23+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:11:45+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:11:45+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:13:47+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:13:47+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:14:16+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:14:16+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:14:17+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:14:17+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:14:52+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T17:14:52+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T17:17:57+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:18:05+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:18:11+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:18:30+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.com"
+time="2023-08-18T17:18:31+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.com"
+time="2023-08-18T17:18:57+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T17:18:57+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T17:19:08+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=236
+time="2023-08-18T17:19:12+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=salaried Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=236
+time="2023-08-18T17:21:26+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T17:21:26+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T17:22:12+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:22:12+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:22:13+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:22:13+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:22:21+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:22:21+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:22:47+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:22:47+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:22:47+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:22:47+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:23:11+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T17:23:11+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T17:23:52+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:23:52+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:23:54+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:23:54+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:23:57+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:23:57+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:30:07+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.com"
+time="2023-08-18T17:30:43+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T17:30:43+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T17:31:40+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T17:31:40+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T17:33:48+05:30" level=info msg="Login Successful 0"
+time="2023-08-18T19:27:43+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T19:27:43+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T19:28:22+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T19:28:22+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T19:28:51+05:30" level=warning msg="Authorization header missing"
+time="2023-08-18T19:28:51+05:30" level=info msg="update session and respond Invalid IP Address!"
+time="2023-08-18T19:29:51+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T19:29:51+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T19:30:12+05:30" level=info msg="Login Successful 0"
+time="2023-08-18T19:31:01+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-18T19:34:43+05:30" level=error msg="Error retrieving userID from session: failed to fetch user ID from the database: sql: no rows in result set"
+time="2023-08-18T19:36:54+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-18T19:43:08+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-18T19:43:08+05:30" level=info msg="Login Successful raksha.rajput98@gmail.com"
+time="2023-08-18T19:43:44+05:30" level=info msg="Login Successful 0"
+time="2023-08-19T12:30:24+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.com"
+time="2023-08-19T12:35:50+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.com"
+time="2023-08-19T12:36:18+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.comm"
+time="2023-08-19T12:36:40+05:30" level=warning msg="Invalid credentials for user: raksha.rajput98@gmail.com"
+time="2023-08-19T12:38:27+05:30" level=info msg="Added New User Successfully" User_Contact=7987436119 User_Email=anand@gmail.com User_Password=Encrypted User_name=anand
+time="2023-08-19T12:38:57+05:30" level=warning msg="Invalid credentials for user: anand@gmail.com"
+time="2023-08-19T12:43:57+05:30" level=warning msg="Invalid credentials for user: anand@gmail.com"
+time="2023-08-19T12:45:05+05:30" level=warning msg="Invalid credentials for user: prachichhapariya2000@gmail.com"
+time="2023-08-19T12:46:19+05:30" level=warning msg="Invalid credentials for user: anand@gmail.com"
+time="2023-08-19T12:56:44+05:30" level=warning msg="Invalid credentials for user: anand@gmail.com"
+time="2023-08-19T12:56:58+05:30" level=warning msg="Invalid credentials for user: anand@gmail.com"
+time="2023-08-19T13:01:59+05:30" level=warning msg="Invalid credentials for user: anand@gmail.com"
+time="2023-08-19T13:03:44+05:30" level=info msg="Added New User Successfully" User_Contact=9752248875 User_Email=swapnil@walkingdreamz.com User_Password=Encrypted User_name=swapnil
+time="2023-08-19T13:05:27+05:30" level=warning msg="Invalid credentials for user: swapnil@walkingdreamz.com"
+time="2023-08-19T13:09:21+05:30" level=info msg="Added New User Successfully" User_Contact=9752248875 User_Email=swapnil@walkingdreamz.com User_Password=Encrypted User_name=swap
+time="2023-08-19T13:16:47+05:30" level=warning msg="Invalid credentials for user: pragati@gmail.com"
+time="2023-08-19T13:18:59+05:30" level=info msg="Added New User Successfully" User_Contact=7987436119 User_Email=swatichouhan39@gmail.com User_Password=Encrypted User_name=swati
+time="2023-08-19T13:20:56+05:30" level=warning msg="Invalid credentials for user: swatichouhan39@gmail.com"
+time="2023-08-19T13:21:06+05:30" level=warning msg="Invalid credentials for user: swatichouhan39@gmail.com"
+time="2023-08-19T13:24:36+05:30" level=warning msg="Invalid credentials for user get user from dtabase: swatichouhan39@gmail.com"
+time="2023-08-19T13:29:46+05:30" level=warning msg="Invalid credentials for user get user from dtabase: swatichouhan39@gmail.com"
+time="2023-08-19T13:36:18+05:30" level=warning msg="Invalid credentials for user get user from dtabase: swatichouhan39@gmail.com"
+time="2023-08-19T13:40:47+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-19T13:40:47+05:30" level=info msg="Login Successful swatichouhan39@gmail.com"
+time="2023-08-19T13:42:11+05:30" level=info msg="Login Successful 0"
+time="2023-08-19T13:45:02+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-19T13:59:03+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-19T13:59:31+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-19T13:59:31+05:30" level=info msg="Login Successful swatichouhan39@gmail.com"
+time="2023-08-19T13:59:39+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-19T14:02:50+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-19T14:05:20+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-19T14:06:58+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=237
+time="2023-08-19T14:07:03+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=salaried Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=237
+time="2023-08-19T14:16:22+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=BussinessOwner Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=237
+time="2023-08-19T14:39:20+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-19T14:40:13+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-19T14:40:13+05:30" level=info msg="Login Successful swatichouhan39@gmail.com"
+time="2023-08-19T14:40:19+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-19T14:40:50+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-19T14:41:27+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-19T14:41:27+05:30" level=info msg="Login Successful swatichouhan39@gmail.com"
+time="2023-08-19T14:45:02+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=balancetransfer Pincode=0 Tenure=0 loan_id=238
+time="2023-08-19T14:45:20+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=Independent Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=238
+time="2023-08-19T14:56:11+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=120000 Loan_Type= Pincode=0 Tenure=0 loan_id=238
+time="2023-08-19T14:57:49+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=40000 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=238
+time="2023-08-19T15:00:25+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=480001 Tenure=0 loan_id=238
+time="2023-08-19T15:01:23+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-19T15:25:30+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-19T15:25:30+05:30" level=info msg="Login Successful swatichouhan39@gmail.com"
+time="2023-08-19T15:26:12+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-19T15:27:26+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=239
+time="2023-08-19T15:27:28+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=SelfEmployed Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=239
+time="2023-08-19T15:27:33+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=10 Loan_Type= Pincode=0 Tenure=0 loan_id=239
+time="2023-08-19T15:29:08+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=78000 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=239
+time="2023-08-19T15:29:20+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=450001 Tenure=0 loan_id=239
+time="2023-08-19T15:42:25+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=1 loan_id=239
+time="2023-08-19T15:47:06+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-19T15:47:06+05:30" level=info msg="Login Successful swatichouhan39@gmail.com"
+time="2023-08-19T15:47:10+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=240
+time="2023-08-19T15:59:42+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-19T15:59:42+05:30" level=info msg="Login Successful swatichouhan39@gmail.com"
+time="2023-08-19T15:59:48+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=buyplot Pincode=0 Tenure=0 loan_id=241
+time="2023-08-19T15:59:50+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=BussinessOwner Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=241
+time="2023-08-19T15:59:55+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=1245 Loan_Type= Pincode=0 Tenure=0 loan_id=241
+time="2023-08-19T15:59:59+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=4554 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=241
+time="2023-08-19T16:00:09+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=123654 Tenure=0 loan_id=241
+time="2023-08-19T16:00:48+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=4 loan_id=241
+time="2023-08-19T16:12:29+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-19T16:12:29+05:30" level=info msg="Login Successful swatichouhan39@gmail.com"
+time="2023-08-19T16:12:35+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=buyplot Pincode=0 Tenure=0 loan_id=242
+time="2023-08-19T16:15:20+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=BussinessOwner Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=242
+time="2023-08-19T16:16:15+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=12000 Loan_Type= Pincode=0 Tenure=0 loan_id=242
+time="2023-08-19T16:16:26+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=12000 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=242
+time="2023-08-19T16:16:36+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=451666 Tenure=0 loan_id=242
+time="2023-08-19T16:16:41+05:30" level=error msg="Error executing SQL query: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM loan_details_table d WHERE id = ?' at line 1"
+time="2023-08-19T16:16:41+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=10 loan_id=242
+time="2023-08-19T16:19:53+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-19T16:19:53+05:30" level=info msg="Login Successful swatichouhan39@gmail.com"
+time="2023-08-19T16:20:08+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=buyplot Pincode=0 Tenure=0 loan_id=243
+time="2023-08-19T16:20:14+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=Independent Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=243
+time="2023-08-19T16:20:19+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=12000 Loan_Type= Pincode=0 Tenure=0 loan_id=243
+time="2023-08-19T16:20:24+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=13555 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=243
+time="2023-08-19T16:20:29+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=456321 Tenure=0 loan_id=243
+time="2023-08-19T16:20:32+05:30" level=error msg="Error executing SQL query: Error 1136 (21S01): Column count doesn't match value count at row 1"
+time="2023-08-19T16:20:32+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=1 loan_id=243
+time="2023-08-19T16:24:39+05:30" level=warning msg="Invalid credentials for user: swatichouhan39@gmail.com"
+time="2023-08-19T16:24:42+05:30" level=warning msg="Invalid credentials for user: swatichouhan39@gmail.com"
+time="2023-08-19T16:24:45+05:30" level=warning msg="Invalid credentials for user: swatichouhan39@gmail.com"
+time="2023-08-19T16:24:45+05:30" level=warning msg="Invalid credentials for user: swatichouhan39@gmail.com"
+time="2023-08-19T16:24:45+05:30" level=warning msg="Invalid credentials for user: swatichouhan39@gmail.com"
+time="2023-08-19T16:24:57+05:30" level=warning msg="Invalid credentials for user: swatichouhan39@gmail.com"
+time="2023-08-19T16:25:33+05:30" level=warning msg="Invalid credentials for user: swatichouhan39@gmail.coM"
+time="2023-08-19T16:26:04+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-19T16:26:04+05:30" level=info msg="Login Successful swatichouhan39@gmail.com"
+time="2023-08-19T16:26:08+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=244
+time="2023-08-19T16:26:10+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=salaried Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=244
+time="2023-08-19T16:26:17+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=4e+07 Loan_Type= Pincode=0 Tenure=0 loan_id=244
+time="2023-08-19T16:26:23+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=60000 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=244
+time="2023-08-19T16:26:26+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=451666 Tenure=0 loan_id=244
+time="2023-08-19T16:26:29+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=15 loan_id=244
+time="2023-08-19T16:40:54+05:30" level=info msg="Added New User Successfully" User_Contact=7987436119 User_Email=swatichouhan39@gmail.com User_Password=Encrypted User_name="Swati Chouhan"
+time="2023-08-19T16:41:21+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-19T16:41:21+05:30" level=info msg="Login Successful swatichouhan39@gmail.com"
+time="2023-08-19T16:41:29+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-19T16:41:53+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-19T16:43:50+05:30" level=info msg="Added New User Successfully" User_Contact=7987436119 User_Email=swatichouhan39@gmail.com User_Password=Encrypted User_name="Swati Chouhan"
+time="2023-08-19T16:44:13+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-19T16:44:13+05:30" level=info msg="Login Successful swatichouhan39@gmail.com"
+time="2023-08-19T16:44:18+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=245
+time="2023-08-19T16:44:22+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=salaried Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=245
+time="2023-08-19T16:44:29+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=1.4e+06 Loan_Type= Pincode=0 Tenure=0 loan_id=245
+time="2023-08-19T16:44:36+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=50000 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=245
+time="2023-08-19T16:44:43+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=123456 Tenure=0 loan_id=245
+time="2023-08-19T16:44:48+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=1 loan_id=245
+time="2023-08-19T16:54:13+05:30" level=info msg="Added New User Successfully" User_Contact=7987436119 User_Email=swatichouhan39@gmail.com User_Password=Encrypted User_name="Swati Chouhan"
+time="2023-08-19T16:54:52+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-19T16:54:52+05:30" level=info msg="Login Successful swatichouhan39@gmail.com"
+time="2023-08-19T16:54:57+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=1
+time="2023-08-19T16:55:00+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=BussinessOwner Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=1
+time="2023-08-19T16:55:08+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=120000 Loan_Type= Pincode=0 Tenure=0 loan_id=1
+time="2023-08-19T16:55:14+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=40000 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=1
+time="2023-08-19T16:55:20+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=123654 Tenure=0 loan_id=1
+time="2023-08-19T16:55:23+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=1 loan_id=1
+time="2023-08-19T17:12:42+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-19T17:12:42+05:30" level=info msg="Login Successful swatichouhan39@gmail.com"
+time="2023-08-19T17:12:52+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=2
+time="2023-08-19T17:12:54+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=BussinessOwner Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=2
+time="2023-08-19T17:13:00+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=120000 Loan_Type= Pincode=0 Tenure=0 loan_id=2
+time="2023-08-19T17:13:04+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=12000 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=2
+time="2023-08-19T17:13:08+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=123654 Tenure=0 loan_id=2
+time="2023-08-19T17:13:12+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=1 loan_id=2
+time="2023-08-19T17:49:16+05:30" level=info msg="Added New User Successfully" User_Contact=7987436119 User_Email=swatichouhan39@gmail.com User_Password=Encrypted User_name="Swati Chouhan"
+time="2023-08-19T17:49:53+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-19T17:49:53+05:30" level=info msg="Login Successful swatichouhan39@gmail.com"
+time="2023-08-19T17:50:53+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=1
+time="2023-08-19T17:51:02+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=BussinessOwner Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=1
+time="2023-08-19T17:51:13+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=1.2e+06 Loan_Type= Pincode=0 Tenure=0 loan_id=1
+time="2023-08-19T17:51:21+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=40000 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=1
+time="2023-08-19T17:51:28+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=480001 Tenure=0 loan_id=1
+time="2023-08-19T17:51:45+05:30" level=info msg="Update Loan Table Successfully" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=2 loan_id=1
+time="2023-08-19T17:55:44+05:30" level=info msg="Update Lead Table Successfully" Progress Status="In Progress"
+time="2023-08-19T17:57:20+05:30" level=info msg="Update Lead Table Successfully" Employment_Type=BussinessOwner Gross_Monthly_Income=40000 Lead_Id=1 Lead_Type=BuyHome Loan_Amount=1.2e+06 Pincode=480001 Tenure=2
+time="2023-08-19T17:57:42+05:30" level=info msg="Update Lead Table Successfully" Progress Status=Completed
+time="2023-08-21T19:01:03+05:30" level=warning msg="Invalid credentials for user: swatichouhan39@gmail.com"
+time="2023-08-21T19:01:17+05:30" level=warning msg="Invalid credentials for user: swatichouhan39@gmail.com"
+time="2023-08-21T19:01:25+05:30" level=info msg="sql: no rows in result set jkdkdfkjksd"
+time="2023-08-21T19:01:25+05:30" level=info msg="Login Successful swatichouhan39@gmail.com"
+time="2023-08-22T12:44:11+05:30" level=info msg="Connection Start"
+time="2023-08-22T15:37:42+05:30" level=info msg="Update Lead Table Successfully" Progress Status=Pending
+time="2023-08-22T15:37:51+05:30" level=info msg="Update Lead Table Successfully" Progress Status="In Progress"
+time="2023-08-22T15:38:16+05:30" level=info msg="Update Lead Table Successfully" Employment_Type=self Gross_Monthly_Income=30000 Lead_Id=11 Lead_Type=car Loan_Amount=90000 Pincode=480001 Tenure=1
+time="2023-08-22T15:38:41+05:30" level=info msg="Update Lead Table Successfully" Employment_Type=self Gross_Monthly_Income=30000 Lead_Id=11 Lead_Type=car Loan_Amount=90000 Pincode=480001 Tenure=1
+time="2023-08-22T15:40:26+05:30" level=info msg="Update Lead Table Successfully" Employment_Type=self Gross_Monthly_Income=30000 Lead_Id=10 Lead_Type=car Loan_Amount=90000 Pincode=480001 Tenure=1
+time="2023-08-23T12:24:04+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=0
+time="2023-08-23T12:50:31+05:30" level=warning msg="Invalid credentials for user: swatichouhan39@gmail.com"
+time="2023-08-23T12:50:58+05:30" level=warning msg="Invalid credentials for user: swatichouhan39@gmail.com"
+time="2023-08-23T12:51:04+05:30" level=warning msg="Invalid credentials for user: swatichouhan39@gmail.com"
+time="2023-08-23T12:51:16+05:30" level=info msg="Login Successful 0"
+time="2023-08-23T12:55:58+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=0
+time="2023-08-23T12:59:21+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=0
+time="2023-08-23T13:00:02+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=0
+time="2023-08-23T13:05:14+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=0
+time="2023-08-23T13:09:20+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=0
+time="2023-08-23T13:18:10+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=0
+time="2023-08-23T13:21:39+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=0
+time="2023-08-23T13:36:14+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=BuyHome Pincode=0 Tenure=0 loan_id=9
+time="2023-08-23T13:37:51+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=salaried Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=9
+time="2023-08-24T13:26:20+05:30" level=error msg="Error decoding request body: json: cannot unmarshal number into Go struct field Loan_details.applicant_contact of type string"
+time="2023-08-24T14:14:23+05:30" level=error msg="Error decoding request body: json: cannot unmarshal number into Go struct field Loan_details.loan_type of type string"
+time="2023-08-24T14:26:16+05:30" level=error msg="Error decoding request body: json: cannot unmarshal number into Go struct field Loan_details.loan_type of type string"
+time="2023-08-24T14:27:45+05:30" level=error msg="Error executing SQL query: Error 1136 (21S01): Column count doesn't match value count at row 1"
+time="2023-08-24T14:33:40+05:30" level=error msg="Error executing SQL query: Error 1136 (21S01): Column count doesn't match value count at row 1"
+time="2023-08-24T14:58:17+05:30" level=error msg="Error executing SQL query: Error 1136 (21S01): Column count doesn't match value count at row 1"
+time="2023-08-24T15:02:17+05:30" level=error msg="Error executing SQL query: Error 1136 (21S01): Column count doesn't match value count at row 1"
+time="2023-08-24T15:04:53+05:30" level=error msg="Error executing SQL query: Error 1136 (21S01): Column count doesn't match value count at row 1"
+time="2023-08-24T15:06:15+05:30" level=error msg="Error executing SQL query: Error 1136 (21S01): Column count doesn't match value count at row 1"
+time="2023-08-24T15:15:44+05:30" level=error msg="Error executing SQL query: Error 1136 (21S01): Column count doesn't match value count at row 1"
+time="2023-08-24T15:26:39+05:30" level=error msg="Error executing SQL query: Error 1136 (21S01): Column count doesn't match value count at row 1"
+time="2023-08-24T15:50:33+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=Home Pincode=0 Tenure=0 loan_id=10
+time="2023-08-24T15:52:04+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=Home Pincode=0 Tenure=0 loan_id=11
+time="2023-08-24T15:55:54+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=Home Pincode=0 Tenure=0 loan_id=12
+time="2023-08-24T16:00:47+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=Home Pincode=0 Tenure=0 loan_id=13
+time="2023-08-24T16:26:21+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T16:27:19+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T16:27:41+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T16:30:04+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T16:31:33+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T16:36:31+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T16:39:25+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T16:49:21+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T16:49:58+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T17:29:30+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T17:30:26+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T17:33:58+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T17:35:25+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T17:36:57+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T17:40:33+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T17:41:19+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T17:44:21+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T17:47:42+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T17:49:08+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=Home Pincode=0 Tenure=0 loan_id=14
+time="2023-08-24T17:49:22+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=Home Pincode=0 Tenure=0 loan_id=15
+time="2023-08-24T17:53:18+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T17:53:58+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T17:54:39+05:30" level=info msg="contact & loan type exist"
+time="2023-08-24T17:55:10+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=Home Pincode=0 Tenure=0 loan_id=16
+time="2023-08-24T17:56:46+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=Home Pincode=0 Tenure=0 loan_id=17
+time="2023-08-24T18:01:16+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=Home Pincode=0 Tenure=0 loan_id=18
+time="2023-08-24T18:02:07+05:30" level=info msg="SELECT query <nil>"
+time="2023-08-24T18:02:07+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=Home Pincode=0 Tenure=0 loan_id=19
+time="2023-08-24T19:06:54+05:30" level=error msg="Error retrieving userID from session: Invalid token"
+time="2023-08-25T16:26:19+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=Education Pincode=0 Tenure=0 loan_id=23
+time="2023-08-25T16:39:19+05:30" level=info msg="Loan Details Inserted" Employment_Type= Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type=Home Pincode=0 Tenure=0 loan_id=24
+time="2023-08-25T16:39:27+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=Independent Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=24
+time="2023-08-25T16:41:14+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=salaried Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=24
+time="2023-08-25T16:41:49+05:30" level=info msg="Update Loan Table Successfully" Employment_Type=SelfEmployed Gross_Monthly_Income=0 Loan_Amount=0 Loan_Type= Pincode=0 Tenure=0 loan_id=24
+time="2023-08-29T18:43:41+05:30" level=info msg="Update Lead Table Successfully" Employment_Type=self Gross_Monthly_Income=30000 Lead_Id=2 Lead_Type=car Loan_Amount=90000 Pincode=480001 Tenure=1
