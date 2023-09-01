@@ -60,6 +60,8 @@ func main() {
 	// defer db.Close()
 	r := mux.NewRouter()
 
+	r.HandleFunc("/", user.Greet).Methods("GET")
+
 	// logrus.Info("info")
 
 	//r.PathPrefix("/form/").Handler(http.StripPrefix("/form/", http.FileServer(http.Dir("form")))) //localhost:9000/form/ endpoint for accessing forms

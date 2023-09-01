@@ -142,11 +142,18 @@ func ValidateUser(user User_info, validate *validator.Validate) error {
 // 	// ...
 // }
 
+func Greet(w http.ResponseWriter, r *http.Request) {
+	x := "hello world"
+
+	fmt.Sprintf("msg %v", x)
+
+}
+
 func GetAllUser(w http.ResponseWriter, r *http.Request) {
-	db, err := con.GetDB()
-	if err != nil {
-		panic(fmt.Errorf("failed to initialize database: %v", err))
-	}
+	// db, err := con.GetDB()
+	// if err != nil {
+	// 	panic(fmt.Errorf("failed to initialize database: %v", err))
+	// }
 	rows, err := db.Query("SELECT id, user_name, user_email, user_contact_num,created_at,last_modified FROM user_info")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -191,18 +198,18 @@ func GetAllUser(w http.ResponseWriter, r *http.Request) {
 
 }
 func GetUserById(w http.ResponseWriter, r *http.Request) {
-	db, err := con.GetDB()
-	if err != nil {
-		panic(fmt.Errorf("failed to initialize database: %v", err))
-	}
+	// db, err := con.GetDB()
+	// if err != nil {
+	// 	panic(fmt.Errorf("failed to initialize database: %v", err))
+	// }
 
 	params := mux.Vars(r)
 	userID := params["id"]
 	var user User_info
 
-	error := db.QueryRow("SELECT id, user_name, user_email, user_contact_num ,created_at,last_modified  FROM user_info WHERE id=?", userID).Scan(&user.Id, &user.Name, &user.Email, &user.Contact_Num, &user.Created_At, &user.Last_Modified)
+	err := db.QueryRow("SELECT id, user_name, user_email, user_contact_num ,created_at,last_modified  FROM user_info WHERE id=?", userID).Scan(&user.Id, &user.Name, &user.Email, &user.Contact_Num, &user.Created_At, &user.Last_Modified)
 	if err != nil {
-		http.Error(w, error.Error(), http.StatusInternalServerError)
+		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 
 	}
@@ -243,14 +250,14 @@ func GetUserById(w http.ResponseWriter, r *http.Request) {
 // }
 
 func AddUser(w http.ResponseWriter, r *http.Request) {
-	db, err := con.GetDB()
-	if err != nil {
-		panic(fmt.Errorf("failed to initialize database: %v", err))
-	}
+	// db, err := con.GetDB()
+	// if err != nil {
+	// 	panic(fmt.Errorf("failed to initialize database: %v", err))
+	// }
 	var user User_info
-	errors := json.NewDecoder(r.Body).Decode(&user)
+	err := json.NewDecoder(r.Body).Decode(&user)
 	if err != nil {
-		http.Error(w, errors.Error(), http.StatusBadRequest)
+		http.Error(w, err.Error(), http.StatusBadRequest)
 		return
 	}
 
@@ -342,10 +349,10 @@ func sendOTPEmail1(email, otp string) error {
 }
 
 func DeleteUser(w http.ResponseWriter, r *http.Request) {
-	db, err := con.GetDB()
-	if err != nil {
-		panic(fmt.Errorf("failed to initialize database: %v", err))
-	}
+	// db, err := con.GetDB()
+	// if err != nil {
+	// 	panic(fmt.Errorf("failed to initialize database: %v", err))
+	// }
 	params := mux.Vars(r)
 	userID := params["id"]
 
@@ -368,17 +375,17 @@ func DeleteUser(w http.ResponseWriter, r *http.Request) {
 }
 
 func UpdateUser(w http.ResponseWriter, r *http.Request) {
-	db, err := con.GetDB()
-	if err != nil {
-		panic(fmt.Errorf("failed to initialize database: %v", err))
-	}
+	// db, err := con.GetDB()
+	// if err != nil {
+	// 	panic(fmt.Errorf("failed to initialize database: %v", err))
+	// }
 	params := mux.Vars(r)
 	userID := params["id"]
 
 	var user User_info
-	errr := json.NewDecoder(r.Body).Decode(&user)
+	err := json.NewDecoder(r.Body).Decode(&user)
 	if err != nil {
-		http.Error(w, errr.Error(), http.StatusBadRequest)
+		http.Error(w, err.Error(), http.StatusBadRequest)
 		return
 	}
 	result, err := db.Exec("UPDATE user_info SET user_name=?, user_email=?, user_contact_num=?, user_password=?, last_modified=NOW() WHERE id=?", user.Name, user.Email, user.Contact_Num, user.Password, userID)
@@ -408,10 +415,10 @@ func UpdateUser(w http.ResponseWriter, r *http.Request) {
 }
 
 func UserCount(w http.ResponseWriter, r *http.Request) {
-	db, err := con.GetDB()
-	if err != nil {
-		panic(fmt.Errorf("failed to initialize database: %v", err))
-	}
+	// db, err := con.GetDB()
+	// if err != nil {
+	// 	panic(fmt.Errorf("failed to initialize database: %v", err))
+	// }
 
 	//db := con.GetDB()
 
@@ -450,10 +457,10 @@ func UserCount(w http.ResponseWriter, r *http.Request) {
 	w.Write(jsonResponse)
 }
 func AdminUserSoftDelete(w http.ResponseWriter, r *http.Request) {
-	db, err := con.GetDB()
-	if err != nil {
-		panic(fmt.Errorf("failed to initialize database: %v", err))
-	}
+	//db, err := con.GetDB()
+	// if err != nil {
+	// 	panic(fmt.Errorf("failed to initialize database: %v", err))
+	// }
 	params := mux.Vars(r)
 	UserID := params["id"]
 
