@@ -145,7 +145,14 @@ func ValidateUser(user User_info, validate *validator.Validate) error {
 func Greet(w http.ResponseWriter, r *http.Request) {
 	x := "hello world"
 
-	fmt.Sprintf("msg %v", x)
+	w.Header().Set("Content-Type", "application/json")
+
+	jsonResponse, err := json.Marshal(x)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	w.Write(jsonResponse)
 
 }
 
