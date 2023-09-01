@@ -58,6 +58,7 @@ func main() {
 	// }
 
 	// defer db.Close()
+
 	r := mux.NewRouter()
 
 	r.HandleFunc("/", user.Greet).Methods("GET")

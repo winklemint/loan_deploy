@@ -147,3 +147,4 @@ backend/logrus.log
 backend/*.log
 admin/logrus.log
 admin/*.log
+.vercel

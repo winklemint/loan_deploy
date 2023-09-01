@@ -58,7 +58,7 @@ func init() {
 	if err != nil {
 		log.Fatalf("failed to initialize database: %v", err)
 	}
-	defer db.Close()
+
 }
 
 func SetDB(database *sql.DB) {
